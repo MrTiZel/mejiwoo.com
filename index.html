@@ -5,36 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Mejiwoo.com</title>
 </head>
 
 <body>
+    <!-- БЛОК HEADER -->
     <header>
         <div class="top-panel">
-            <nav class="menu">
+            <nav class="menu no-show_1050">
                 <ul class="menu__ul">
-                    <li class="menu__li"><a href="#"></a></li>
-                    <li class="menu__li"><a href="#"></a></li>
-                    <li class="menu__li"><a href="#"></a></li>
-                    <li class="menu__li"><a href="#"></a></li>
+                    <li class="menu__li menu__li_active"><a href="#">Home</a></li>
+                    <li class="menu__li"><a href="#">Product</a></li>
+                    <li class="menu__li"><a href="#">Categories</a></li>
+                    <li class="menu__li"><a href="#">SALE</a></li>
                 </ul>
             </nav>
-            <a href="#"><img src="/img/logo.png" alt="Логотоип сайта"></a>
+            <a class="top-panel__logo" href="#"><span class="panel__logo_top">MEJIWOO</span><br><span
+                    class="panel__logo_bottom">미지우</span></a>
             <div class="search-basket">
                 <form action="#" class="search">
-                    <input class="search__text" value="Search" type="text">
-                    <input class="search__submit" type="submit" value="submit">
+                    <div class="search__block">
+                        <input class="search__text" value="Search" type="text">
+                        <button class="search__img"><img src="/img/icon_search.png" alt="Иконка поиска"></button>
+                    </div>
                 </form>
-                <a class="search-basket__basket" href="#"><i></i></a>
-                <a class="search-basket__login" href="#"><i></i></a>
+                <a class="search-basket__basket" href="#"><img src="/img/icon_basket.png" alt="Иконка корзины"></a>
+                <a class="search-basket__login" href="#"><img src="/img/icon_user.png" alt="Иконка пользователя"></a>
             </div>
         </div>
         <div class="header-content">
-            <div class="wrapper"></div>
+            <img class="header-content__woman-img no-show_1050" src="/img/woman1.png" alt="Фотография девушки">
+            <img class="header-content__woman-img no-show_800" src="/img/woman2.png" alt="Фотография девушки">
+            <div class="header-content__content">
+                <div class="header-content__name">
+                    <h1 class="header-content__h1">MEJIWOO</h1>
+                    <h2 class="header-content__h2">미지우</h2>
+                </div>
+                <p class="header-content__p">make your everyday look prettier
+                    with MEJIWOO Korean Made</p>
+            </div>
+            <img class="header-content__woman-img no-show_800" src="/img/woman3.png" alt="Фотография девушки">
+            <img class="header-content__woman-img no-show_1050" src="/img/woman4.png" alt="Фотография девушки">
         </div>
     </header>
+    <!-- БЛОК HEADER -->
     <footer></footer>
 </body>
 
