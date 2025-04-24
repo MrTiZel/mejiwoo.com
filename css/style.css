@@ -113,6 +113,10 @@
 }
 
 @media (max-width:800px) {
+  .header-content {
+    height: 340px;
+  }
+
   .no-show_800 {
     display: none;
   }
@@ -195,13 +199,44 @@
 }
 
 .section2-block__h2 {
-  font-size: 38px;
+  font-size: 42px;
 }
 
 .section2-block__link {
   background: #fff;
   padding: 12px 30px;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+@media (max-width:1300px) {
+  .section2 {
+    height: 440px;
+  }
+
+  .section2__img {
+    height: 250px;
+  }
+}
+
+@media (max-width:1150px) {
+  .section2 {
+    height: 350px;
+  }
+
+  .section2__img {
+    height: 200px;
+  }
+}
+
+@media (max-width:1000px) {
+  .section2 {
+    height: 300px;
+  }
+
+  .section2__img {
+    display: none;
+  }
 }
 
 /* БЛОК SECTION 2 */
