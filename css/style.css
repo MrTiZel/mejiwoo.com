@@ -119,3 +119,89 @@
 }
 
 /* БЛОК HEADER */
+/* БЛОК SECTION 1 */
+.Card-block-1 {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: [s-left] repeat(3, 1fr) [s-right];
+  gap: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.block__more {
+  background: #F7F6F0;
+  padding: 12px 30px;
+  border-radius: 20px;
+}
+
+.block__img {
+  width: 100%;
+}
+
+.block__h3 {
+  font-size: 28px;
+}
+
+.block__p {
+  line-height: 24px;
+}
+
+.block-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  grid-column: s-left / s-right;
+  padding: 60px 0;
+}
+
+/* БЛОК SECTION 1 */
+
+/* БЛОК SECTION 2 */
+.section2 {
+  height: 540px;
+  background: #F7F6F0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.section2__img {
+  height: 300px;
+}
+
+.section2-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.section2-block__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section2-block__h2 {
+  font-size: 38px;
+}
+
+.section2-block__link {
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 20px;
+}
+
+/* БЛОК SECTION 2 */
