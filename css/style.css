@@ -130,6 +130,7 @@
   display: grid;
   grid-template-columns: [s-left] repeat(3, 1fr) [s-right];
   gap: 20px;
+  padding: 45px;
 }
 
 .block {
@@ -243,6 +244,8 @@
 
 /* БЛОК SECTION 3 */
 .section3 {
+  max-width: 1240px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,3 +336,128 @@
 }
 
 /* БЛОК SECTION 3 */
+/* БЛОК SECTION 4 */
+.section4 {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "T1 T1 T1"
+    "B1 B2 B3"
+    "B4 B2 B5"
+    "T2 T2 T2"
+    "B6 B7 B8";
+  gap: 25px;
+  padding: 0 45px;
+  margin-bottom: 45px;
+}
+
+.item-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item-top__span {
+  font-weight: bold;
+  margin: 0 0 15px 15px;
+}
+
+.item-top__link {
+  background: #F7F6F0;
+  padding: 10px;
+  border-top-left-radius: 10px;
+}
+
+.section4__title1 {
+  grid-area: T1;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 60px 0;
+}
+
+.section4__title2 {
+  grid-area: T2;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 60px 0;
+}
+
+.section4__block1 {
+  grid-area: B1;
+  background: url(/img/Frame13.png) no-repeat center;
+  background-size: cover;
+  height: 335px;
+}
+
+.section4__block2 {
+  grid-area: B2;
+  background: url(/img/Frame14.png) no-repeat center;
+  background-size: cover;
+}
+
+.section4__block3 {
+  grid-area: B3;
+  background: url(/img/Frame15.png) no-repeat center;
+  background-size: cover;
+  height: 335px;
+}
+
+.section4__block4 {
+  grid-area: B4;
+  background: url(/img/Frame16.png) no-repeat center;
+  background-size: cover;
+  height: 335px;
+}
+
+.section4__block5 {
+  grid-area: B5;
+  background: url(/img/Frame17.png) no-repeat center;
+  background-size: cover;
+  height: 335px;
+}
+
+.section4__block6 {
+  grid-area: B6;
+}
+
+.section4__block7 {
+  grid-area: B7;
+}
+
+.section4__block8 {
+  grid-area: B8;
+}
+
+.item-botton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #F7F6F0;
+  border-radius: 10px;
+  padding: 25px 35px 15px 35px;
+}
+
+.item-botton__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.item-botton__img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.item-botton__ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+/* БЛОК SECTION 4 */
