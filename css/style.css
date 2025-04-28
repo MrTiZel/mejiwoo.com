@@ -566,3 +566,75 @@
 }
 
 /* БЛОК SECTION 5 */
+/* БЛОК FOOTER */
+.footer-blocks {
+  padding: 50px 100px;
+}
+
+.footer-blocks__logo {
+  align-self: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer-blocks__logo_top {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.footer-blocks__logo_botton {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.footer-blocks__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 105px;
+}
+
+.footer-blocks__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-blocks__ul_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-blocks__links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-blocks__policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-blocks__panelB {
+  width: 100%;
+  padding: 15px 0;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-blocks__panelB_p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+/* БЛОК FOOTER */
